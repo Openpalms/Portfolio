@@ -1,0 +1,35 @@
+.mainBlock {
+  background-color: transparent;
+  display: block;
+
+  object-fit: contain;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.info {
+  z-index: 100;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 2rem;
+  position: absolute;
+  width: 100%;
+  display: block;
+  margin: 10rem;
+}
+.infoBtn {
+  /* width: 20%; */
+  height: 5vh;
+  margin-left: 5px;
+  text-transform: uppercase;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+.infoBtn:hover {
+  color: #ff1744;
+  border: 1px solid #ff1744;
+}
