@@ -1,0 +1,35 @@
+.wrapper {
+  display: inline-block;
+}
+.skills {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+.columns:first-child {
+  margin-left: 0;
+}
+.column {
+  word-wrap: break-word;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  margin: 2px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 980px) {
+  .column,
+  .columns {
+    flex-basis: 100%;
+    flex-direction: column;
+  }
+}
