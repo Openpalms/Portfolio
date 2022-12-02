@@ -18,8 +18,8 @@
   display: block;
   margin: 10rem;
 }
+
 .infoBtn {
-  /* width: 20%; */
   height: 5vh;
   margin-left: 5px;
   text-transform: uppercase;
@@ -32,4 +32,13 @@
 .infoBtn:hover {
   color: #ff1744;
   border: 1px solid #ff1744;
+}
+@media screen and (max-width: 991px) {
+  .info {
+    width: 100%;
+    margin: 10rem 2rem;
+  }
+  video {
+    width: 150%;
+  }
 }

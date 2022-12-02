@@ -16,9 +16,10 @@ const Projects = () => {
           <div className={s.content}>
             <h2>Social Network</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate esse reiciendis reprehenderit tenetur aspernatur est
-              illum quibusdam? Excepturi, harum ab.
+              Facebook/vk copy. Build with React, redux, typescript. Styled with
+              Bootstrap 5. It's currently using 3rd party API, but soon I'll use
+              firebase for storing profiles, messages, etc. It is still in
+              progress.
             </p>
           </div>
         </div>
@@ -31,11 +32,12 @@ const Projects = () => {
             />
           </div>
           <div className={s.content}>
-            <h2>Social Network</h2>
+            <h2>Todo list</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate esse reiciendis reprehenderit tenetur aspernatur est
-              illum quibusdam? Excepturi, harum ab.
+              I decided to create Todo list using some cool feautures so it will
+              not be usual simple project. So it's storing data in realtime
+              database, todos are draggable and have some more cool feautures.
+              However, styling is still in progress.
             </p>
           </div>
         </div>
@@ -48,11 +50,10 @@ const Projects = () => {
             />
           </div>
           <div className={s.content}>
-            <h2>Social Network</h2>
+            <h2>Meetings</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate esse reiciendis reprehenderit tenetur aspernatur est
-              illum quibusdam? Excepturi, harum ab.
+              Tinder clone built from scratch with own server on Node.Js using
+              MongoDB to store data and register/login users.
             </p>
           </div>
         </div>

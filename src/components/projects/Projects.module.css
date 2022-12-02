@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  margin: 0 auto;
   width: 1000px;
   display: flex;
   justify-content: space-between;
@@ -14,14 +15,16 @@
   display: flex;
 }
 .container .card .imgBox {
-  max-width: 150px;
-  flex: 0 0 150px;
+  max-width: 250px;
+  flex: 0 0 250px;
 }
 .container .card .content {
   margin-left: 20px;
 }
 .container .card .imgBox img {
+  border-radius: 20px;
   max-width: 100%;
+  height: 100%;
 }
 .title {
   text-transform: uppercase;
