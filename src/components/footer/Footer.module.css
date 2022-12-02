@@ -1,0 +1,28 @@
+.siteFooter {
+  width: 100%;
+  background-color: #11171a;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.siteFooter h2 {
+  display: flex;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 3rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.row {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
