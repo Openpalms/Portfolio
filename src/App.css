@@ -26,6 +26,11 @@ body {
   height: 10px;
 }
 
+::selection {
+  background-color: rgb(49, 42, 42);
+  color: #ff1744;
+}
+
 video {
   object-fit: contain;
   height: 100vh;
@@ -155,4 +160,10 @@ input[type='submit'] {
   background: whitesmoke;
   color: black;
   border-radius: 2px;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    margin-left: 0;
+  }
 }

@@ -1,10 +1,33 @@
 import s from './Projects.module.css';
+import ImageSlider from './Slider';
 
 const Projects = () => {
+  const slides = [
+    {
+      url: 'https://res.cloudinary.com/dtpgi0zck/image/upload/s--zOSmBEhk--/c_fit,h_580,w_860/v1/EducationHub/photos/pebble-beach.jpg',
+      title: 'beach',
+    },
+    {
+      url: 'https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80',
+      title: 'beach',
+    },
+    {
+      url: 'https://res.cloudinary.com/dtpgi0zck/image/upload/s--zOSmBEhk--/c_fit,h_580,w_860/v1/EducationHub/photos/pebble-beach.jpg',
+      title: 'beach',
+    },
+    {
+      url: 'https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80',
+      title: 'beach',
+    },
+    {
+      url: 'https://res.cloudinary.com/dtpgi0zck/image/upload/s--zOSmBEhk--/c_fit,h_580,w_860/v1/EducationHub/photos/pebble-beach.jpg',
+      title: 'beach',
+    },
+  ];
   return (
     <>
       <h1 className={s.title}>Projects</h1>
-      <section className={s.container}>
+      {/* <section className={s.container}>
         <div className={s.card}>
           <div className={s.imgBox}>
             <img
@@ -57,7 +80,10 @@ const Projects = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
+      <div style={{ width: '80%', height: '600px', margin: '0 auto' }}>
+        <ImageSlider slides={slides} />
+      </div>
     </>
   );
 };
