@@ -3,16 +3,13 @@ import s from './Navbar.module.css';
 const Navbar = () => {
   return (
     <div className={s.links}>
-      <a href="#" className={s.mainText}>
+      <a href="#" className={s.mainText} smooth>
         galochkin
       </a>
       <nav>
         <ul className={s.list}>
           <li>
-            <a href="#"> &lt;About /&gt;</a>
-          </li>
-          <li>
-            <a href="#">&lt;Work /&gt;</a>
+            <a href="#skills">&lt;Skills /&gt;</a>
           </li>
           <li>
             <a href="#">&lt;Portfolio /&gt;</a>

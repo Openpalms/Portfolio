@@ -52,10 +52,10 @@ const Slider = () => {
           );
         })}
         <button className="prev" onClick={() => setIndex(index - 1)}>
-          <img src={arrowLeft} alt="" />
+          {/* <img src={arrowLeft} alt="" /> */}
         </button>
         <button className="next" onClick={() => setIndex(index + 1)}>
-          <img src={arrowRight} alt="" />
+          {/* <img src={arrowRight} alt="" /> */}
         </button>
       </div>
     </section>

@@ -1,8 +1,10 @@
+import socialNetwork from '../../assets/socialNetwork.png';
+import todos from '../../assets/todos.png';
+
 const people = [
   {
     id: 1,
-    image:
-      'https://cdn.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png',
+    image: socialNetwork,
     name: 'Social Network',
     title: 'React, Redux,Typescript, custom API and more.. ',
     quote:
@@ -11,7 +13,7 @@ const people = [
   {
     id: 2,
     image:
-      'https://cdn.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png',
+      'https://user-images.githubusercontent.com/99143587/201422108-4f08fef5-d8f3-4985-8222-fd19c065098d.png',
     name: 'Meetings',
     title: 'React, ReduxToolkit, NodeJS+MongoDB for backend',
     quote:
@@ -19,8 +21,7 @@ const people = [
   },
   {
     id: 3,
-    image:
-      'https://cdn.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png',
+    image: todos,
     name: 'Todo List',
     title: 'React, Firebase Realtime/Firestore/Storage',
     quote:
@@ -29,7 +30,7 @@ const people = [
   {
     id: 4,
     image:
-      'https://cdn.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png',
+      'https://user-images.githubusercontent.com/99143587/196378933-50ac29cf-d0b3-400f-8d95-d66031bd098d.png',
     name: 'User Search',
     title: 'React, NodeJS for server',
     quote:

@@ -1,7 +1,7 @@
 import s from './SkillsSection.module.css';
 const SkillsSection = () => {
   return (
-    <div className={s.wrapper}>
+    <div className={s.wrapper} id="skills">
       <h3 className={s.skills}>My Skills</h3>
       <section className={s.columns}>
         <div className={s.column}>
