@@ -21,7 +21,11 @@ const ContactForm = () => {
   };
   return (
     <>
-      <div className="container">
+      <div
+        className="container"
+        data-aos="fade-down-right"
+        data-aos-delay="300"
+      >
         <h2>
           Contact
           <br /> form

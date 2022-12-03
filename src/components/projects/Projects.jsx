@@ -7,7 +7,11 @@ const Projects = () => {
       <h1 id="projects" className={s.title}>
         Projects
       </h1>
-      <div style={{ width: '80%', height: '600px', margin: '0 auto' }}>
+      <div
+        style={{ width: '80%', height: '600px', margin: '0 auto' }}
+        data-aos="fade-down-left"
+        data-aos-delay="300"
+      >
         <Slider />
       </div>
     </>
