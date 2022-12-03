@@ -5,7 +5,7 @@ import codewars from '../../assets/codewars.svg';
 import github from '../../assets/github.svg';
 const Footer = () => {
   return (
-    <footer className={s.siteFooter}>
+    <footer className={s.siteFooter} id="contacts">
       <h2>Follow me</h2>
       <div className={s.container}>
         <div className={s.row}>

@@ -5,10 +5,10 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
-  scroll-behavior: smooth;
 }
 html,
 body {
+  scroll-behavior: smooth;
   background-color: black;
   overflow-x: hidden;
 }
@@ -163,5 +163,81 @@ input[type='submit'] {
 @media screen and (max-width: 980px) {
   .container {
     margin-left: 0;
+  }
+}
+
+.emailSend {
+  display: flex;
+  justify-content: center;
+}
+
+.successEmail {
+  color: #ff1744;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.successEmail:first-child {
+  animation: showup 7s infinite;
+}
+
+.successEmail:last-child {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+.successEmail:last-child span {
+  margin-left: -355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
   }
 }

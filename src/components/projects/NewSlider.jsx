@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Slider.css';
 import data from './data';
-import arrowLeft from '../../assets/arrowLeft.svg';
-import arrowRight from '../../assets/arrowRight.svg';
 
 const Slider = () => {
   const [people] = useState(data);
