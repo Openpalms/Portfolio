@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Slider.css';
 import data from './data';
+import arrowLeft from '../../assets/arrowLeft.svg';
+import arrowRight from '../../assets/arrowRight.svg';
 
 const Slider = () => {
   const [people] = useState(data);
@@ -27,9 +29,6 @@ const Slider = () => {
 
   return (
     <section className="section">
-      <div className="title">
-        <h2>top leader</h2>
-      </div>
       <div className="section-center">
         {people.map((item, indexPeople) => {
           const { id, image, name, title, quote } = item;
@@ -53,10 +52,10 @@ const Slider = () => {
           );
         })}
         <button className="prev" onClick={() => setIndex(index - 1)}>
-          <i className="fas fa-arrow-left" />
+          <img src={arrowLeft} alt="" />
         </button>
         <button className="next" onClick={() => setIndex(index + 1)}>
-          <i className="fas fa-arrow-right" />
+          <img src={arrowRight} alt="" />
         </button>
       </div>
     </section>
