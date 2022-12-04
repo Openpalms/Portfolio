@@ -41,20 +41,26 @@ const Slider = () => {
             position = 'lastSlide';
           }
           return (
-            <article className={position} key={id}>
-              <img src={image} alt={name} className="person-img" />
-              <h4>{name}</h4>
-              <p className="title">{title}</p>
-              <p className="text">{quote}</p>
-            </article>
+            <>
+              <article className={position} key={id}>
+                <img src={image} alt={name} className="person-img" />
+                <h4>{name}</h4>
+                <p className="title">{title}</p>
+                <p className="text">{quote}</p>
+              </article>
+              <button
+                className="prev"
+                onClick={() => setIndex(index - 1)}
+              ></button>
+              <button
+                className="next"
+                onClick={() => setIndex(index + 1)}
+              ></button>
+            </>
           );
         })}
-        <button className="prev" onClick={() => setIndex(index - 1)}>
-          {/* <img src={arrowLeft} alt="" /> */}
-        </button>
-        <button className="next" onClick={() => setIndex(index + 1)}>
-          {/* <img src={arrowRight} alt="" /> */}
-        </button>
+        {/* <button className="prev" onClick={() => setIndex(index - 1)}></button>
+        <button className="next" onClick={() => setIndex(index + 1)}></button> */}
       </div>
     </section>
   );

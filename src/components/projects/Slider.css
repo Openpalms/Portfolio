@@ -91,7 +91,6 @@ article h4 {
   position: absolute;
   top: 150px;
   transform: translateY(-50%);
-  /* background: whitesmoke; */
   background: #ff1744;
   width: 1.25rem;
   height: 1.25rem;
@@ -119,9 +118,23 @@ article h4 {
   }
   .prev,
   .next {
-    /* background: #ff1744; */
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
+  }
+  .section-center {
+    position: unset;
+  }
+}
+
+@media (min-width: 1201px) {
+  .prev {
+    left: 25%;
+  }
+  .next {
+    right: 25%;
+  }
+  .section-center {
+    position: unset;
   }
 }
