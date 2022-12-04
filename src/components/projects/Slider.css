@@ -107,10 +107,12 @@ article h4 {
   background: #ff1744;
 }
 .prev {
-  left: 0;
+  top: 80%;
+  left: 25%;
 }
 .next {
-  right: 0;
+  top: 80%;
+  right: 25%;
 }
 @media (min-width: 800px) {
   .text {
@@ -121,7 +123,9 @@ article h4 {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
+    top: 50%;
   }
+
   .section-center {
     position: unset;
   }

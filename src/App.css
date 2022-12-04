@@ -151,7 +151,6 @@ video {
 }
 input[type='submit'] {
   border: none;
-
   padding: 7px 35px;
   cursor: pointer;
   outline: none;
