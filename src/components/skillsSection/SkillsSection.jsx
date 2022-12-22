@@ -1,12 +1,7 @@
 import s from './SkillsSection.module.css';
 const SkillsSection = () => {
   return (
-    <div
-      className={s.wrapper}
-      id="skills"
-      data-aos="fade-left"
-      data-aos-delay="200"
-    >
+    <div className={s.wrapper} id="skills" data-aos="fade" data-aos-delay="200">
       <h3 className={s.skills}>My Skills</h3>
       <section className={s.columns}>
         <div className={s.column} data-aos="slide-right" data-aos-delay="100">

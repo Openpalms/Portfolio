@@ -8,7 +8,7 @@ const people = [
     name: 'Social Network',
     title: 'React, Redux,Typescript, custom API and more.. ',
     quote:
-      'Facebook/vk clone SPA created with React JS library, Redux for state management, TypeScript for scalability, bootstrap for beauty. Still in progress, mirgating to Typescript ',
+      'Facebook/vk clone SPA created with React JS library, Redux for state management, TypeScript for scalability, bootstrap for beauty. Still in progress, mirgating to Typescript.  ',
   },
   {
     id: 2,
@@ -35,6 +35,14 @@ const people = [
     title: 'React, NodeJS for server',
     quote:
       'Simple project that filters out data coming from the backend. Built it to gain some experience in NodeJs and backend overall.',
+  },
+  {
+    id: 5,
+    image: socialNetwork,
+    name: 'Realtime chat/feed app ',
+    title: 'React,Typescript, firebase',
+    quote:
+      'Realtime chat with people, your own feed, likes and subscribers - just a part of this app. Builded with many firebase features - auth, realtime database, firestore, storage to make my app smooth. Come and check it at my github',
   },
 ];
 export default people;
